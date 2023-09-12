@@ -6,13 +6,11 @@ terraform {
     }
 
   }
-
-
 backend "s3"{
   bucket="mohan14242"
   key="mohankey"
   region="us-east-1"
-  dynamodb_table="roboshop"
+  dynamodb_table="mohan14242"
 }
 }
 
