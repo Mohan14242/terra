@@ -10,7 +10,7 @@ terraform {
 
 backend "s3"{
   bucket="mohan14242"
-  key="foreach-demo"
+  key="mohankey"
   region="us-east-1"
   dynamodb_table="mohan14242"
 }
