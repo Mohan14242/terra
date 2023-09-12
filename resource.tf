@@ -21,7 +21,7 @@ resource "aws_route53_record" "www" {
 }
 
 resource "aws_security_group" "group" {
-    name="mohanns group"
+    name="mohan group"
     description = "this is is maintian by mohan him slef"
     dynamic ingress {
         for_each = var.ingress
