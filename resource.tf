@@ -2,7 +2,7 @@ resource "aws_instance" "my" {
     for_each = var.ins
     ami=var.ami_id
     instance_type = each.value
-    security_groups = [aws_security_group.group.name]
+    # security_groups = [aws_security_group.group.name]
 
     tags = {
       Name=each.key
